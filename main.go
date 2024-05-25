@@ -7,7 +7,6 @@ package main
 import "github.com/fogleman/gg"
 
 // https://limpet.net/mbrubeck/2014/08/08/toy-layout-engine-1.html
-// 父节点确定宽度，分发给子节点布局，子节点计算高度影响到父节点，子节点宽度若是为 auto先不管他，最后使用剩余的进行平均
 
 func main() {
 	tokens := ParseToken("/Users/bytedance/Documents/go/my_browser/res/test.html")
